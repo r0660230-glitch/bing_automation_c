@@ -38,7 +38,7 @@ def load_queries():
 
 def main():
 
-    queries = ['ffdsf','df', 'sf', 'fws', 'fdwe']
+    queries = load_queries()
 
     if not AUTH_FILE.exists():
         raise FileNotFoundError(
